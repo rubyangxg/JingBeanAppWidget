@@ -7,5 +7,5 @@
 
 # 预览图
 
-![APP](https://cdn.jsdelivr.net/gh/baifan97/JingBeanAppWidget/main/APP.png)
-![Widget](https://cdn.jsdelivr.net/gh/baifan97/JingBeanAppWidget/main/Widget.png)
+![APP](https://cdn.jsdelivr.net/gh/baifan97/JingBeanAppWidget/APP.png)
+![Widget](https://cdn.jsdelivr.net/gh/baifan97/JingBeanAppWidget/Widget.png)
