@@ -172,6 +172,14 @@ class MainActivity : BaseActivity() {
             vibrator.vibrate(10) //单位是ms
         }
 
+        githublj.setOnClickListener {
+            val intent = Intent(this, MyWebActivity::class.java)
+            intent.putExtra("url", "https://github.com/baifan97/JingBeanAppWidget")
+            intent.putExtra("title", "京豆小部件——GitHub")
+            startActivity(intent)
+            val vibrator = this.getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+            vibrator.vibrate(10)
+        }
 
         loginJd.setOnClickListener {
             val intent = Intent(this, MyWebActivity::class.java)

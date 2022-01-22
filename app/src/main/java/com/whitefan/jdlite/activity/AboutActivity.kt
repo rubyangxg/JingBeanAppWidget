@@ -7,6 +7,7 @@ import kotlinx.android.synthetic.main.activity_about.*
 import android.content.Intent
 import android.net.Uri
 import android.os.Vibrator
+import kotlinx.android.synthetic.main.activity_main.*
 
 
 class AboutActivity : BaseActivity() {
@@ -29,6 +30,14 @@ class AboutActivity : BaseActivity() {
             joinQQGroup("KI_oHmcuNm_9xR93cnx-NRbvz2-TSl1j")
         }
 
+        github.setOnClickListener {
+            val intent = Intent(this, MyWebActivity::class.java)
+            intent.putExtra("url", "https://github.com/baifan97/JingBeanAppWidget")
+            intent.putExtra("title", "京豆小部件——GitHub")
+            startActivity(intent)
+            val vibrator = this.getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+            vibrator.vibrate(10)
+        }
 
     }
 

@@ -172,26 +172,6 @@ object HttpUtil {
                 }
             })
     }
-// 上传ck
-//    fun sendCK(remark: String, ck: String, callback: StringCallBack?) {
-//        OkGo.post<String>(Constants.HOST_URL + "wangjing/uploadCookie")
-//            .params("JD_COOKIE", ck)
-//            .params("remark", remark)
-//            .params("time", System.currentTimeMillis())
-//            .headers("Accept", "*/*")
-//            .headers("Connection", "keep-alive")
-//            .headers("Accept-Language", "zh-cn")
-//            .headers("User-Agent", "jdapp;android;10.1.6;8.1.0;network/wifi;Mozilla/5.0 (Linux; Android 8.1.0; 16 X Build/OPM1.171019.026; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044942 Mobile Safari/537.36")
-//            .execute(object : StringCallback() {
-//                override fun onSuccess(response: Response<String>) {
-//                    callback?.onSuccess(response.body())
-//                }
-//
-//                override fun onError(response: Response<String>) {
-//                    super.onError(response)
-//                }
-//            })
-//    }
 
 
     public fun cancel(tag: Any) {
