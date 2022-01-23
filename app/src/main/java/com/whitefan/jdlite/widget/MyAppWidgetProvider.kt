@@ -21,7 +21,7 @@ class MyAppWidgetProvider : AppWidgetProvider() {
     override fun onUpdate(context: Context, appWidgetManager: AppWidgetManager, appWidgetIds: IntArray) {
         for (appwidgetId in appWidgetIds) {
             val remoteViews = RemoteViews(context.packageName, R.layout.widges_layout)
-            remoteViews.setViewPadding(R.id.rootParent, R.dimen.dp_0.dmToPx(), 0, R.dimen.dp_0.dmToPx(), 0)
+            remoteViews.setViewPadding(R.id.rootParent, R.dimen.dp_15.dmToPx(), 0, R.dimen.dp_15.dmToPx(), 0)
             val name = ComponentName(context, MyAppWidgetProvider::class.java)
             appWidgetManager.updateAppWidget(name, remoteViews)
         }
