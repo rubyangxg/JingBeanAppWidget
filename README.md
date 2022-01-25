@@ -2,13 +2,6 @@
 ![APP](https://cdn.jsdelivr.net/gh/baifan97/JingBeanAppWidget/APP.png)
 京豆小部件纯净版，无多余内容，完全开源，可基于源码进行二次打包，但请保留开源信息。
 
-## 下载地址
-蓝奏云：https://whitefan.lanzout.com/b0ag9xa0j
-密码:6666
-
-## 预览图
-![Widget](https://cdn.jsdelivr.net/gh/baifan97/JingBeanAppWidget/Widget.png)
-
 ## 功能
 - [x] 一键获取`Cookie`
 - [x] 多账号管理
@@ -21,6 +14,15 @@
 - [ ] 小部件跟随系统深色模式（正式版中此功能已上线）
 - [ ] 各种助力脚本执行
 - [ ] 多账号资产详情查询页面
+
+## 下载地址
+蓝奏云：https://whitefan.lanzout.com/b0ag9xa0j
+密码:6666
+
+## 预览图
+![Widget](https://cdn.jsdelivr.net/gh/baifan97/JingBeanAppWidget/Widget.png)
+
+
 
 # 说明
 
