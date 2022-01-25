@@ -15,8 +15,6 @@
 local.properties
 /app/build.gradle
 /build.gradle
-# /app/src/main/res
-# /app/src/main/AndroidManifest.xml
 .gitignore
 /app/src/main/java/com/whitefan/jdlite/Constants.kt
 # Project exclude paths
