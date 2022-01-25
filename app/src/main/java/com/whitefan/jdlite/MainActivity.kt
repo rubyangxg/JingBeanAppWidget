@@ -37,7 +37,7 @@ class MainActivity : BaseActivity() {
         setTitle("京豆小部件 Lite")
         back?.visibility = View.GONE
 
-        setRightTitle("关于软件")
+        setRightTitle("关于")
 
     }
 
