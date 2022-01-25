@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/neu_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--标题栏-->
+    <include layout="@layout/include_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/githublj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/dp_25"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_25"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:fontFamily="@font/tencent"
+            android:text="GitHub：WhiteFan"
+            android:textAlignment="center"
+            android:textColor="@color/huise"
+            android:textSize="@dimen/dp_10" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_20"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@mipmap/neu_card1" />
+
+                <ImageView
+                    android:id="@+id/about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_28"
+                    android:layout_alignTop="@id/Title"
+                    android:layout_alignRight="@id/Title"
+                    android:layout_marginTop="@dimen/dp_2"
+                    android:layout_marginRight="@dimen/dp_8"
+                    android:visibility="gone"
+                    app:srcCompat="@mipmap/neu_about" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dp_10">
+
+                <Button
+                    android:id="@+id/muchCK"
+                    android:layout_width="@dimen/dp_165"
+                    android:layout_height="@dimen/dp_120"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:layout_marginRight="@dimen/dp_0"
+                    android:background="@drawable/neu_background_card_down_bac"
+                    android:gravity="center"
+                    android:stateListAnimator="@null"
+                    android:text="\n\n账号管理"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="@color/neu_text_color"
+                    android:textSize="@dimen/dp_16"
+                    android:textStyle="normal|bold"
+                    android:typeface="serif" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_42"
+                    android:layout_alignLeft="@id/muchCK"
+                    android:layout_alignTop="@id/muchCK"
+                    android:layout_alignRight="@id/muchCK"
+                    android:layout_marginTop="@dimen/dp_30"
+                    app:srcCompat="@mipmap/neu_my" />
+
+                <Button
+                    android:id="@+id/loginJd"
+                    android:layout_width="@dimen/dp_165"
+                    android:layout_height="@dimen/dp_120"
+                    android:layout_marginLeft="@dimen/dp_186"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:background="@drawable/neu_background_card_down_bac"
+                    android:gravity="center"
+                    android:stateListAnimator="@null"
+                    android:text="\n\n获取Cookie"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="@color/neu_text_color"
+                    android:textSize="@dimen/dp_16"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_46"
+                    android:layout_alignWithParentIfMissing="false"
+                    android:layout_alignStart="@id/loginJd"
+                    android:layout_alignTop="@id/loginJd"
+                    android:layout_alignEnd="@id/loginJd"
+                    android:layout_marginTop="@dimen/dp_32"
+                    android:layoutDirection="ltr"
+                    app:srcCompat="@mipmap/neu_ck" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10">
+
+                <Button
+                    android:id="@+id/setting"
+                    android:layout_width="@dimen/dp_165"
+                    android:layout_height="@dimen/dp_120"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:background="@drawable/neu_background_card_down_bac"
+                    android:gravity="center"
+                    android:stateListAnimator="@null"
+                    android:text="\n\n设置"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="@color/neu_text_color"
+                    android:textSize="@dimen/dp_16"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_31"
+                    android:layout_alignWithParentIfMissing="false"
+                    android:layout_alignLeft="@id/setting"
+                    android:layout_alignTop="@id/setting"
+                    android:layout_alignRight="@id/setting"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/dp_34"
+                    android:layoutDirection="ltr"
+                    app:srcCompat="@mipmap/neu_set" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

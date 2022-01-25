@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/neu_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--标题栏-->
+    <include layout="@layout/include_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_8"
+                android:layout_marginRight="@dimen/dp_10"
+                android:orientation="vertical">
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_10" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_50"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_18"
+                        android:layout_marginRight="@dimen/dp_8"
+                        android:layout_weight="1"
+                        android:background="@drawable/background_notice_down_bac"
+                        android:gravity="center|center_horizontal|center_vertical"
+                        android:stateListAnimator="@null"
+                        android:text="添加多个账号可能会导致数据错误\n点击可复制 Cookie 到剪贴板"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dp_11"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <Button
+                        android:id="@+id/pushloadCk"
+                        android:layout_width="@dimen/dp_76"
+                        android:layout_height="@dimen/dp_30"
+                        android:layout_marginLeft="@dimen/dp_2"
+                        android:layout_marginTop="@dimen/dp_6"
+                        android:layout_marginRight="@dimen/dp_5"
+                        android:background="@drawable/background_count_down_bac"
+                        android:text="资产查询"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/dp_12"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_120"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/dp_2"
+                    android:layout_marginTop="@dimen/dp_8"
+                    android:layout_marginRight="@dimen/dp_2"
+                    android:layout_weight="1"
+                    android:background="@drawable/neu_background_card_down_bac"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:layout_marginTop="@dimen/dp_8"
+                        android:layout_marginBottom="@dimen/dp_10"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_2"
+                            android:layout_marginTop="@dimen/dp_2"
+                            android:fontFamily="@font/tencent"
+                            android:text="账号1"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dp_20" />
+
+                        <TextView
+                            android:id="@+id/inputCK0"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_2"
+                            android:layout_marginTop="@dimen/dp_2"
+                            android:layout_marginRight="@dimen/dp_2"
+                            android:layout_marginBottom="@dimen/dp_0"
+                            android:background="@null"
+                            android:text="请输入Cookie"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="@dimen/dp_200"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:layout_marginRight="@dimen/dp_16"
+                        android:layout_marginLeft="@dimen/dp_8"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/updateCK"
+                            android:layout_width="@dimen/dp_86"
+                            android:layout_height="@dimen/dp_26"
+                            android:layout_marginLeft="@dimen/dp_2"
+                            android:layout_marginTop="@dimen/dp_1"
+                            android:layout_marginRight="@dimen/dp_1"
+                            android:background="@drawable/background_count_down_bac"
+                            android:text="更新CK1状态"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/dp_12" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_120"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/dp_2"
+                    android:layout_marginTop="@dimen/dp_8"
+                    android:layout_marginRight="@dimen/dp_2"
+                    android:layout_weight="1"
+                    android:background="@drawable/neu_background_card_down_bac"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:layout_marginTop="@dimen/dp_8"
+                        android:layout_marginBottom="@dimen/dp_10"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_2"
+                            android:layout_marginTop="@dimen/dp_2"
+                            android:fontFamily="@font/tencent"
+                            android:text="账号2"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dp_20" />
+
+                        <TextView
+                            android:id="@+id/inputCK1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_2"
+                            android:layout_marginTop="@dimen/dp_2"
+                            android:layout_marginRight="@dimen/dp_2"
+                            android:layout_marginBottom="@dimen/dp_0"
+                            android:background="@null"
+                            android:text="请输入Cookie"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="@dimen/dp_200"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:layout_marginRight="@dimen/dp_16"
+                        android:layout_marginLeft="@dimen/dp_8"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/updateCK1"
+                            android:layout_width="@dimen/dp_86"
+                            android:layout_height="@dimen/dp_26"
+                            android:layout_marginLeft="@dimen/dp_2"
+                            android:layout_marginTop="@dimen/dp_1"
+                            android:layout_marginRight="@dimen/dp_1"
+                            android:background="@drawable/background_count_down_bac"
+                            android:text="更新CK2状态"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/dp_12" />
+
+                        <Button
+                            android:id="@+id/pushloadCk1"
+                            android:layout_width="@dimen/dp_86"
+                            android:layout_height="@dimen/dp_26"
+                            android:layout_marginLeft="@dimen/dp_2"
+                            android:layout_marginTop="@dimen/dp_8"
+                            android:layout_marginRight="@dimen/dp_1"
+                            android:background="@drawable/background_count_down_bac"
+                            android:text="资产查询"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/dp_12"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_120"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/dp_2"
+                    android:layout_marginTop="@dimen/dp_8"
+                    android:layout_marginRight="@dimen/dp_2"
+                    android:layout_weight="1"
+                    android:background="@drawable/neu_background_card_down_bac"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:layout_marginTop="@dimen/dp_8"
+                        android:layout_marginBottom="@dimen/dp_10"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_2"
+                            android:layout_marginTop="@dimen/dp_2"
+                            android:fontFamily="@font/tencent"
+                            android:text="账号3"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dp_20" />
+
+                        <TextView
+                            android:id="@+id/inputCK2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_2"
+                            android:layout_marginTop="@dimen/dp_2"
+                            android:layout_marginRight="@dimen/dp_2"
+                            android:layout_marginBottom="@dimen/dp_0"
+                            android:background="@null"
+                            android:text="请输入Cookie"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="@dimen/dp_200"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dp_8"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:layout_marginRight="@dimen/dp_16"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/updateCK2"
+                            android:layout_width="@dimen/dp_86"
+                            android:layout_height="@dimen/dp_26"
+                            android:layout_marginLeft="@dimen/dp_2"
+                            android:layout_marginTop="@dimen/dp_1"
+                            android:layout_marginRight="@dimen/dp_1"
+                            android:background="@drawable/background_count_down_bac"
+                            android:text="更新CK3状态"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/dp_12" />
+
+                        <Button
+                            android:id="@+id/pushloadCk2"
+                            android:layout_width="@dimen/dp_86"
+                            android:layout_height="@dimen/dp_26"
+                            android:layout_marginLeft="@dimen/dp_2"
+                            android:layout_marginTop="@dimen/dp_8"
+                            android:layout_marginRight="@dimen/dp_1"
+                            android:background="@drawable/background_count_down_bac"
+                            android:text="资产查询"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/dp_12"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_120"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/dp_2"
+                    android:layout_marginTop="@dimen/dp_8"
+                    android:layout_marginRight="@dimen/dp_2"
+                    android:layout_weight="1"
+                    android:background="@drawable/neu_background_card_down_bac"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:layout_marginTop="@dimen/dp_8"
+                        android:layout_marginBottom="@dimen/dp_10"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_2"
+                            android:layout_marginTop="@dimen/dp_2"
+                            android:fontFamily="@font/tencent"
+                            android:text="账号4"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dp_20" />
+
+                        <TextView
+                            android:id="@+id/inputCK3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_2"
+                            android:layout_marginTop="@dimen/dp_2"
+                            android:layout_marginRight="@dimen/dp_2"
+                            android:layout_marginBottom="@dimen/dp_0"
+                            android:background="@null"
+                            android:text="请输入Cookie"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/updateCK3"
+                        android:layout_width="@dimen/dp_90"
+                        android:layout_height="@dimen/dp_26"
+                        android:layout_marginLeft="@dimen/dp_8"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:layout_marginRight="@dimen/dp_12"
+                        android:background="@drawable/background_count_down_bac"
+                        android:text="更新CK4状态"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/dp_12" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_120"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/dp_2"
+                    android:layout_marginTop="@dimen/dp_8"
+                    android:layout_marginRight="@dimen/dp_2"
+                    android:layout_weight="1"
+                    android:background="@drawable/neu_background_card_down_bac"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:layout_marginTop="@dimen/dp_8"
+                        android:layout_marginBottom="@dimen/dp_12"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_2"
+                            android:layout_marginTop="@dimen/dp_2"
+                            android:fontFamily="@font/tencent"
+                            android:text="账号5"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dp_20" />
+
+                        <TextView
+                            android:id="@+id/inputCK4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_2"
+                            android:layout_marginTop="@dimen/dp_2"
+                            android:layout_marginRight="@dimen/dp_2"
+                            android:layout_marginBottom="@dimen/dp_0"
+                            android:background="@null"
+                            android:text="请输入Cookie"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/updateCK4"
+                        android:layout_width="@dimen/dp_90"
+                        android:layout_height="@dimen/dp_26"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:layout_marginRight="@dimen/dp_12"
+                        android:background="@drawable/background_count_down_bac"
+                        android:text="更新CK5状态"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/dp_12" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_120"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/dp_2"
+                    android:layout_marginTop="@dimen/dp_8"
+                    android:layout_marginRight="@dimen/dp_2"
+                    android:layout_weight="1"
+                    android:background="@drawable/neu_background_card_down_bac"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:layout_marginTop="@dimen/dp_8"
+                        android:layout_marginBottom="@dimen/dp_12"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_2"
+                            android:layout_marginTop="@dimen/dp_2"
+                            android:fontFamily="@font/tencent"
+                            android:text="账号6"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dp_20" />
+
+                        <TextView
+                            android:id="@+id/inputCK5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_2"
+                            android:layout_marginTop="@dimen/dp_2"
+                            android:layout_marginRight="@dimen/dp_2"
+                            android:layout_marginBottom="@dimen/dp_0"
+                            android:background="@null"
+                            android:text="请输入Cookie"
+                            android:textColor="@color/black"
+                            tools:text="请输入Cookie" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/updateCK5"
+                        android:layout_width="@dimen/dp_90"
+                        android:layout_height="@dimen/dp_26"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:layout_marginRight="@dimen/dp_12"
+                        android:background="@drawable/background_count_down_bac"
+                        android:text="更新CK6状态"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/dp_12" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_38" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="@dimen/dp_10"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

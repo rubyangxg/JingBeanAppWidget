@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/widges_layout2"
+    android:minWidth="@dimen/dp_100"
+    android:minHeight="@dimen/dp_100"
+    android:previewImage="@mipmap/widget_proview2"
+    android:resizeMode="vertical"
+    android:updatePeriodMillis="1800000"
+    android:widgetCategory="home_screen" />

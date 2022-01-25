@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/neu_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--标题栏-->
+    <include layout="@layout/include_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_marginTop="@dimen/dp_3"
+                android:layout_marginRight="@dimen/dp_15"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_2"
+                        android:layout_marginTop="@dimen/dp_2"
+                        android:fontFamily="@font/tencent"
+                        android:text="基础设置"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="@dimen/dp_0"
+                        android:layout_marginTop="@dimen/dp_2"
+                        android:layout_marginRight="@dimen/dp_0"
+                        android:layout_weight="1"
+                        android:background="@drawable/neu_background_card_down_bac"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/dp_10"
+                            android:layout_marginTop="@dimen/dp_2"
+                            android:layout_marginRight="@dimen/dp_10"
+                            android:layout_marginBottom="@dimen/dp_2"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="@dimen/dp_40"
+                                    android:layout_weight="1"
+                                    android:gravity="center_vertical"
+                                    android:text="小组件样式（4*2）"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/dp_15" />
+
+                                <TextView
+                                    android:id="@+id/douShowType"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="@dimen/dp_40"
+                                    android:layout_marginRight="@dimen/dp_0"
+                                    android:gravity="center_vertical"
+                                    android:text="文字展示"
+                                    android:textColor="@color/yellow1"
+                                    android:textSize="@dimen/dp_15" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="@dimen/dp_40"
+                                    android:layout_weight="1"
+                                    android:gravity="center_vertical"
+                                    android:text="小组件背景色（4*2）"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/dp_15" />
+
+                                <TextView
+                                    android:id="@+id/designColor"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="@dimen/dp_40"
+                                    android:layout_marginRight="@dimen/dp_0"
+                                    android:gravity="center_vertical"
+                                    android:text="#FFFFFF"
+                                    android:textColor="@color/yellow1"
+                                    android:textSize="@dimen/dp_15" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dp_40"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="@dimen/dp_40"
+                                    android:layout_weight="1"
+                                    android:gravity="center_vertical"
+                                    android:text="小组件样式（2*2）"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/dp_15" />
+
+                                <TextView
+                                    android:id="@+id/douShowType2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="@dimen/dp_40"
+                                    android:layout_marginRight="@dimen/dp_0"
+                                    android:gravity="center_vertical"
+                                    android:text="京豆展示"
+                                    android:textColor="@color/yellow1"
+                                    android:textSize="@dimen/dp_15" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dp_40"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="@dimen/dp_40"
+                                    android:layout_weight="1"
+                                    android:gravity="center_vertical"
+                                    android:text="小组件背景色（2*2）"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/dp_15" />
+
+                                <TextView
+                                    android:id="@+id/designColor2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="@dimen/dp_40"
+                                    android:layout_marginRight="@dimen/dp_0"
+                                    android:gravity="center_vertical"
+                                    android:text="#FFFFFF"
+                                    android:textColor="@color/yellow1"
+                                    android:textSize="@dimen/dp_15" />
+                            </LinearLayout>
+
+                            <Switch
+                                android:id="@+id/colorSwitch"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dp_40"
+                                android:gravity="center_vertical"
+                                android:text="颜色反转"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/dp_15"
+                                android:thumb="@drawable/switch_thumb"
+                                android:track="@drawable/switch_track" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dp_40"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="@dimen/dp_40"
+                                    android:layout_weight="1"
+                                    android:gravity="center_vertical"
+                                    android:text="小组件左右边距"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/dp_15" />
+
+                                <TextView
+                                    android:id="@+id/paddingTip"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="@dimen/dp_40"
+                                    android:layout_marginRight="@dimen/dp_0"
+                                    android:gravity="center_vertical"
+                                    android:text="15dp"
+                                    android:textColor="@color/yellow1"
+                                    android:textSize="@dimen/dp_15" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_2"
+                        android:layout_marginTop="@dimen/dp_6"
+                        android:fontFamily="@font/tencent"
+                        android:text="其他设置"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="@dimen/dp_0"
+                        android:layout_marginTop="@dimen/dp_2"
+                        android:layout_marginRight="@dimen/dp_0"
+                        android:layout_weight="1"
+                        android:background="@drawable/neu_background_card_down_bac"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/dp_10"
+                            android:layout_marginTop="@dimen/dp_2"
+                            android:layout_marginRight="@dimen/dp_10"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <Switch
+                                android:id="@+id/startUpdateService"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dp_40"
+                                android:gravity="center_vertical"
+                                android:text="每次进入App刷新数据"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/dp_15"
+                                android:thumb="@drawable/switch_thumb"
+                                android:track="@drawable/switch_track" />
+
+                            <Switch
+                                android:id="@+id/hideTips"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dp_40"
+                                android:gravity="center_vertical"
+                                android:text="隐藏底部提示"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/dp_15"
+                                android:thumb="@drawable/switch_thumb"
+                                android:track="@drawable/switch_track" />
+
+                            <Switch
+                                android:id="@+id/hideDivider"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dp_40"
+                                android:gravity="center_vertical"
+                                android:text="隐藏分割线"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/dp_15"
+                                android:thumb="@drawable/switch_thumb"
+                                android:track="@drawable/switch_track" />
+
+                            <Switch
+                                android:id="@+id/hideNichen"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dp_40"
+                                android:gravity="center_vertical"
+                                android:text="屏蔽昵称显示"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/dp_15"
+                                android:thumb="@drawable/switch_thumb"
+                                android:track="@drawable/switch_track" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/settingFinish"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_40"
+                android:layout_marginLeft="@dimen/dp_25"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginRight="@dimen/dp_25"
+                android:background="@drawable/background_count_down_bac"
+                android:text="保存设置"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dp_16" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

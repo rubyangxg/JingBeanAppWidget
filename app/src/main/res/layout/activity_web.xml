@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--标题栏-->
+    <include layout="@layout/include_title" />
+
+    <com.whitefan.jdlite.webView.MarqueeTextView
+        android:id="@+id/tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_10"
+        android:singleLine="true"
+        android:text="请输入手机号，然后点击获取验证码，登录成功后在弹出的对话框点击上传则CK提交到青龙挂京豆平台(提交一次CK有效期30天，请勿重复提交！)"
+        android:textColor="#FF0000"
+        android:visibility="gone" />
+
+    <com.whitefan.jdlite.webView.CommonWebView
+        android:id="@+id/mCommonWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    </com.whitefan.jdlite.webView.CommonWebView>
+
+    <TextView
+        android:id="@+id/sendCK"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="TextView" />
+</LinearLayout>
