@@ -2,8 +2,9 @@
 ![APP](https://cdn.jsdelivr.net/gh/baifan97/JingBeanAppWidget/APP.png)
 京豆小部件纯净版，无多余内容，完全开源，可基于源码进行二次打包，但请保留开源信息。
 
+
 ## 功能
-- [x] 一键获取`Cookie`
+- [x] 一键获取 `Cookie`
 - [x] 多账号管理
 - [x] 4*2小部件支持`简版展示`和`柱状图展示`
 - [x] 2*2小部件支持`京豆收益展示`和`东东农场数据展示`
