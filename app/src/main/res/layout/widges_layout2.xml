@@ -66,7 +66,6 @@
                 </RelativeLayout>
 
                 <TextView
-                    android:id="@+id/textView4"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/dp_20"
                     android:layout_weight="1" />
@@ -501,7 +500,6 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/jshb"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -545,7 +543,6 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/jdhb"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -589,7 +586,6 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/jxhb"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -633,7 +629,6 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/rightContent2"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_gravity="center_vertical"
@@ -874,7 +869,6 @@
         </LinearLayout>
 
         <RelativeLayout
-            android:id="@+id/zhuShow_2"
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_60"
             android:layout_weight="1"

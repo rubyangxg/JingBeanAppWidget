@@ -27,7 +27,6 @@
     <dimen name="dp_18">18dp</dimen>
     <dimen name="dp_19">19dp</dimen>
     <dimen name="dp_20">20dp</dimen>
-    <dimen name="dp_23">23dp</dimen>
     <dimen name="dp_25">25dp</dimen>
     <dimen name="dp_26">26dp</dimen>
     <dimen name="dp_28">28dp</dimen>
@@ -52,15 +51,12 @@
     <dimen name="dp_100">100dp</dimen>
     <dimen name="dp_120">120dp</dimen>
     <dimen name="dp_145">145dp</dimen>
-    <dimen name="dp_156">156dp</dimen>
     <dimen name="dp_165">165dp</dimen>
     <dimen name="dp_186">186dp</dimen>
     <dimen name="dp_200">200dp</dimen>
     <dimen name="dp_280">280dp</dimen>
-    <dimen name="dp_400">400dp</dimen>
 
     <!-- font size,you can add if there is no one -->
     <dimen name="sp_10">10sp</dimen>
-    <dimen name="sp_20">20sp</dimen>
 
 </resources>

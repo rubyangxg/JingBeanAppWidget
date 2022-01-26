@@ -13,9 +13,4 @@
 .externalNativeBuild
 .cxx
 local.properties
-/app/build.gradle
-/build.gradle
 .gitignore
-/app/src/main/java/com/whitefan/jdlite/Constants.kt
-# Project exclude paths
-/app/build/

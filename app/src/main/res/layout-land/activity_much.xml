@@ -61,7 +61,6 @@
                         android:typeface="serif" />
 
                     <Button
-                        android:id="@+id/pushloadCk"
                         android:layout_width="@dimen/dp_76"
                         android:layout_height="@dimen/dp_30"
                         android:layout_marginLeft="@dimen/dp_2"
@@ -223,7 +222,6 @@
                                     android:textSize="@dimen/dp_12" />
 
                                 <Button
-                                    android:id="@+id/pushloadCk2"
                                     android:layout_width="@dimen/dp_86"
                                     android:layout_height="@dimen/dp_26"
                                     android:layout_marginLeft="@dimen/dp_2"
@@ -370,7 +368,6 @@
                                     android:textSize="@dimen/dp_12" />
 
                                 <Button
-                                    android:id="@+id/pushloadCk1"
                                     android:layout_width="@dimen/dp_86"
                                     android:layout_height="@dimen/dp_26"
                                     android:layout_marginLeft="@dimen/dp_2"
@@ -405,7 +402,6 @@
                                 android:orientation="vertical">
 
                                 <TextView
-                                    android:id="@+id/textView3"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="@dimen/dp_2"

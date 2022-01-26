@@ -51,13 +51,12 @@
                         android:textSize="@dimen/dp_20" />
 
                     <TextView
-                        android:id="@+id/textView"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_2"
                         android:layout_marginTop="@dimen/dp_3"
                         android:fontFamily="@font/tencent"
-                        android:text=" lite"
+                        android:text="Lite"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                         android:textColor="@color/widgesblue"
                         android:textSize="@dimen/dp_20" />
@@ -84,7 +83,6 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/textView7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/dp_15"
@@ -96,7 +94,6 @@
                     android:textSize="@dimen/dp_13" />
 
                 <TextView
-                    android:id="@+id/textView12"
                     android:layout_width="match_parent"
                     android:layout_height="6px"
                     android:layout_marginLeft="@dimen/dp_8"
@@ -138,7 +135,6 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/dp_15"
@@ -255,7 +251,6 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/textView9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/dp_15"

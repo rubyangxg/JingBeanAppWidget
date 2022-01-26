@@ -31,7 +31,6 @@
     </com.whitefan.jdlite.webView.CommonWebView>
 
     <TextView
-        android:id="@+id/sendCK"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="TextView" />

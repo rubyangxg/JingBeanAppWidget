@@ -31,7 +31,7 @@
             android:textSize="@dimen/dp_10" />
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/dp_20"
             android:orientation="horizontal">
@@ -100,7 +100,7 @@
                     android:layout_height="@dimen/dp_120"
                     android:layout_marginLeft="@dimen/dp_186"
                     android:layout_marginTop="@dimen/dp_10"
-                    android:layout_marginRight="@dimen/dp_10"
+                    android:layout_marginRight="@dimen/dp_0"
                     android:background="@drawable/neu_background_card_down_bac"
                     android:gravity="center"
                     android:stateListAnimator="@null"
